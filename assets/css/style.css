@@ -86,7 +86,7 @@ h2.subtitulo {
 
 .carousel-control-prev-icon {
     background-color: #795571;
-    background-image: url("img/arrow-circle-left-solid.svg") !important;
+    background-image: url("img/arrow-circle-left-solid.svg");
 }
 
 .carousel-control-next-icon {
