@@ -86,10 +86,10 @@ h2.subtitulo {
 
 .carousel-control-prev-icon {
     background-color: #795571;
-    background-image: url("img/arrow-circle-left-solid.svg") !important;
+    background-image: "img/arrow-circle-left-solid.svg" !important;
 }
 
 .carousel-control-next-icon {
     background-color: #795571;
-    background-image: url("img/arrow-circle-right-solid.svg") !important;
+    background-image: "img/arrow-circle-right-solid.svg" !important;
 }
