@@ -6,7 +6,11 @@
     scroll-behavior: smooth;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-h5,p,ol  {
+
+h5,
+p,
+ol {
+
     background-color: transparent;
 }
 
@@ -36,43 +40,35 @@ body {
 }
 
 .carousel-inner {
-        background-color: transparent;        
-        position: relative;
-        width: 1400px;
-        height: 425px;
-        overflow: hidden;
-    }
-
+    background-color: transparent;
+    position: relative;
+    overflow: hidden;
+}
 
 .carousel-caption {
     background-color: transparent;
     position: absolute;
     right: 15%;
-    bottom: 20px;
+    bottom: 160px;
     left: 15%;
     z-index: 10;
     padding-top: 20px;
     padding-bottom: 20px;
-    color:black;
+    color: black;
     text-align: center;
 }
-
-.d-block {
-    background-color: transparent;
-    display: block!important;
-}
-
 .carousel-item {
     background-color: transparent !important;
-    max-height: 33vh;
-    overflow-y: hidden;
+    min-height: 30px;
+    width: 1400px;
+    height: auto;
 }
 
 li[data-target="#carouselExampleCaptions"] {
     width: 15px;
     height: 15px;
     border-radius: 50%;
-    background-color:white;
+    background-color: white;
 }
 
 li[data-target="#carouselExampleCaptions"]:not(.active) {
@@ -83,18 +79,3 @@ h2.subtitulo {
     flex: 1 0 100%;
     text-align: center;
 }
-
-.carousel-control-next {
-
-    background-color: transparent;
-}
-
-.carousel-control-prev {
-    background-color: transparent;
-<<<<<<< HEAD
-    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23f15722' width='8' height='8' viewBox='0 0 8 8'%3e%3cpath d='M2.75 0l-1.5 1.5L3.75 4l-2.5 2.5L2.75 8l4-4-4-4z'/%3e%3c/svg%3e") !important;
-}
-=======
-
-}
->>>>>>> ea7b1f7e667aa09f01f34eb0af52225c820e7f87
