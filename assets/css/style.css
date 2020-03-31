@@ -7,10 +7,16 @@
     font-family: 'Righteous', sans-serif;
 }
 
+
+header,  {
+    background-color: #795571;
+
+}
+
 h5 {
     background-color: transparent;
     font-size: 1.75rem;
-    font-weight: 600;
+    font-weight: 400;
 }
 
 
@@ -63,13 +69,7 @@ body {
     color: black;
     text-align: center;
 }
-.carousel-item {
-    background-color: transparent !important;
-    min-height: 30px;
-    width: inherit;
-    height: auto;
 
-}
 
 li[data-target="#carouselExampleCaptions"] {
     width: 15px;
@@ -106,6 +106,16 @@ h3 {
  
 }
 
+.card-img-overlay {
+    background: transparent;
+    color: black;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1.25rem;
+}
 .card-body {
     background-color: #fff;
     -ms-flex: 1 1 auto;
