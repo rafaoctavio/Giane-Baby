@@ -7,7 +7,13 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-h5,
+h5 {
+    background-color: transparent;
+    font-size: 1.75rem;
+    font-weight: 600;
+}
+
+
 p,
 ol {
 
@@ -35,7 +41,7 @@ body {
     margin: 20px auto;
     border: none;
     border-radius: 20px;
-    line-height: 0px;
+    line-height: 10px;
     font-size: 10px;
 }
 
@@ -49,7 +55,7 @@ body {
     background-color: transparent;
     position: absolute;
     right: 15%;
-    bottom: 160px;
+    bottom: 250px;
     left: 15%;
     z-index: 10;
     padding-top: 20px;
@@ -60,8 +66,9 @@ body {
 .carousel-item {
     background-color: transparent !important;
     min-height: 30px;
-    width: 1400px;
+    width: inherit;
     height: auto;
+
 }
 
 li[data-target="#carouselExampleCaptions"] {
@@ -78,4 +85,35 @@ li[data-target="#carouselExampleCaptions"]:not(.active) {
 h2.subtitulo {
     flex: 1 0 100%;
     text-align: center;
+}
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0; // See https://github.com/twbs/bootstrap/pull/22740#issuecomment-305868106
+    height: $card-height;
+    word-wrap: break-word;
+    background-color: $card-bg;
+    background-clip: border-box;
+    border: $card-border-width solid $card-border-color;
+    @include border-radius($card-border-radius);
+ 
+}
+
+.card-body {
+    background-color: #fff;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 1.25rem;
+}
+
+.ml-3, .mx-3 {
+        margin-left: 15rem!important;
+        margin-right: 15rem!important;
+}
+
+footer {
+    
 }
