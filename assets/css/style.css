@@ -7,9 +7,36 @@
     font-family: 'Righteous', sans-serif;
 }
 
+.navbar {
+    background-color: #FFCBDB;
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: .5rem 1rem;
+}
+.navbar-nav .nav-link {
+    color: black;
+    padding-right: 0;
+    padding-left: 0;
+    background-color: rgb(255, 203, 219);
+}
 
-header,  {
-    background-color: #795571;
+navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: rgba(0,0,0,.5);
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(0,0,0,1);
+    
+}
+
+.navbar img {
+    background-color: #FFCBDB;
 
 }
 
@@ -61,7 +88,7 @@ body {
     background-color: transparent;
     position: absolute;
     right: 15%;
-    bottom: 250px;
+    bottom: 150px;
     left: 15%;
     z-index: 10;
     padding-top: 20px;
@@ -92,20 +119,6 @@ h3 {
     margin-bottom: auto;
 }
 
-.card {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    min-width: 0; // See https://github.com/twbs/bootstrap/pull/22740#issuecomment-305868106
-    height: $card-height;
-    word-wrap: break-word;
-    background-color: $card-bg;
-    background-clip: border-box;
-    border: $card-border-width solid $card-border-color;
-    @include border-radius($card-border-radius);
- 
-}
-
 .card-img-overlay {
     background: transparent;
     color: black;
@@ -125,8 +138,8 @@ h3 {
 }
 
 .ml-3, .mx-3 {
-        margin-left: 10rem!important;
-        margin-right: 10rem!important;
+        margin-left: 0rem!important;
+        margin-right: 0rem!important;
 }
 
 .carousel-control-prev-icon {
