@@ -3,7 +3,6 @@
 <?php require_once("./inc/header.php"); ?>
 
 <body>
-
   <main>
     <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
       <ol class="carousel-indicators">

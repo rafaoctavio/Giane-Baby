@@ -9,7 +9,7 @@
 
 .navbar {
     background-color: #795571;
-    position: relative;
+    position: fixed;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
@@ -20,7 +20,7 @@
     justify-content: space-between;
     padding: .5rem 1rem;
 }
-.navbar-nav .nav-link {
+.navbar-nav, .nav-link {
     color: black;
     padding-right: 0;
     padding-left: 0;
@@ -28,24 +28,35 @@
 }
 
 navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
-    color: rgba(0,0,0,.5);
+    color: rgba(255, 255, 255, 0.562);
 }
-.navbar-light .navbar-nav .nav-link {
-    color: rgba(0,0,0,1);
+navbar-light .navbar-nav .nav-link {
+    color: rgb(255, 255, 255);
     
 }
 
 .navbar img {
     background-image: url("/img/logo_no_bg.png");
-    background-color: #795571;
-    width: 0rem;
-    height: 0rem;
+    background-color: transparent;
+}
+
+
+
+div.container {
+    background-color:#795571 ;
 }
 
 h5 {
     background-color: transparent;
     font-size: 1.75rem;
     font-weight: 400;
+}
+
+#logomain {
+    position: relative;
+	left: 90px; /* posiciona a 90px para a esquerda */ 
+    bottom: 0px; /* posiciona a 70px para baixo */
+    top: 30px;
 }
 
 
@@ -78,6 +89,11 @@ body {
     border-radius: 20px;
     line-height: 10px;
     font-size: 10px;
+}
+
+.carousel-item {
+    margin-top: 60px;
+    
 }
 
 .carousel-inner {
