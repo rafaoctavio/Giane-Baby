@@ -170,4 +170,33 @@ h3 {
 
 footer {
     background-color: transparent;
+    
+}
+
+.voltarAoInicio{
+    background-color:#795571;
+    margin-top: 20px;
+    
+}
+
+.voltarAoInicio p {
+    color: #FCF5E2;
+    background-color:#795571;
+    height: 43px;
+    text-align: center;
+
+}
+
+.voltarAoInicio a {
+    color: #FCF5E2;
+}
+
+.cnpj{
+    text-align: central;
+    margin-top: 15px;
+}
+
+.cnpj p{
+    text-align: left;
+
 }
