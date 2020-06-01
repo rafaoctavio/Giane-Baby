@@ -3,5 +3,4 @@
 
 ## Desenvolvimento
 
-Página desenvolvida com o intuito de alterar o layout do site da loja Giane Baby. Projeto criado por Cezár para testar novos templates no bootstrap.
-
+Página desenvolvida com o intuito de criar o site portifólio dos serviços prestados pela empresa Giane Baby
