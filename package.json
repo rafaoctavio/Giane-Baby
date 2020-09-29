@@ -1,0 +1,23 @@
+{
+  "name": "gianebaby",
+  "version": "1.0.0",
+  "description": "> versão 2.0 do site portifólio da loja Giane Baby.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rafaoctavio/gianebaby.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rafaoctavio/gianebaby/issues"
+  },
+  "homepage": "https://github.com/rafaoctavio/gianebaby#readme",
+  "dependencies": {
+    "express-generator": "^4.16.1"
+  }
+}
