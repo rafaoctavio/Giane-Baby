@@ -1,8 +1,3 @@
-/* Template: Aria - Business HTML Landing Page Template
-   Author: Inovatik
-   Created: Jul 2019
-   Description: Custom JS file
-*/
 
 
 (function($) {
@@ -174,7 +169,7 @@
     	if (event.isDefaultPrevented()) {
             // handle the invalid form...
             lformError();
-            lsubmitMSG(false, "Please fill all fields!");
+            lsubmitMSG(false, "Por favor preencha todos os campos!");
         } else {
             // everything looks good!
             event.preventDefault();
