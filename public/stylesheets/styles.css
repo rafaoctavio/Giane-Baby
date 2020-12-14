@@ -37,9 +37,7 @@ Colors:
 ******************************************/
 
 
-/******************************/
-/*     01. General Styles     */
-/******************************/
+
 # {
 	color: #fcf6e0;
 }
@@ -708,8 +706,8 @@ screen and (-ms-high-contrast: none) {
 }
 
 .navbar-custom .navbar-brand.logo-image img {
-	width: 7.0625rem;
-	height: 7rem;
+	width: 5.0625rem;
+	height: 5rem;
 	-webkit-backface-visibility: hidden;
 }
 
@@ -2147,7 +2145,7 @@ a:hover.back-to-top {
 
 	/* Header */
 	.header .header-content {
-		padding-top: 14rem;
+		padding-top: 5rem;
 		padding-bottom: 15rem;
 	}
 
@@ -2368,7 +2366,7 @@ a:hover.back-to-top {
 
 	/* Header */
 	.header .header-content {
-		padding-top: 14.75rem;
+		padding-top: 5.75rem;
 		padding-bottom: 17.5rem;
 	}
 
