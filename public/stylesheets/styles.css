@@ -36,16 +36,11 @@ Colors:
 - Body text - light gray #dfe5ec
 ******************************************/
 
-
-
-# {
-	color: #fcf6e0;
-}
-
 body,
 html {
 	width: 100%;
 	height: 100%;
+	color: #fcf6e0;
 }
 
 body,
