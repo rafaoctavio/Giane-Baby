@@ -589,19 +589,19 @@
 
 
                  
-                    <form id="contactForm" data-toggle="validator" data-focus="false">
+                    <form id="contactForm" data-toggle="validator" data-focus="false" action="send" method="POST">
                         <div class="form-group">
-                            <input type="text" class="form-control-input" id="cname" required>
+                            <input name="nome" type="text" class="form-control-input" id="cname" required>
                             <label class="label-control" for="cname">Nome</label>
                             <div class="help-block with-errors"></div>
                         </div>
                         <div class="form-group">
-                            <input type="email" class="form-control-input" id="cemail" required>
+                            <input name="email"type="email" class="form-control-input" id="cemail" required>
                             <label class="label-control" for="cemail">E-mail</label>
                             <div class="help-block with-errors"></div>
                         </div>
                         <div class="form-group">
-                            <textarea class="form-control-textarea" id="cmessage" required></textarea>
+                            <textarea name="mensagem" class="form-control-textarea" id="cmessage" required></textarea>
                             <label class="label-control" for="cmessage">Sua mensagem</label>
                             <div class="help-block with-errors"></div>
                         </div>
